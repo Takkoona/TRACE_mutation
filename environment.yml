@@ -1,0 +1,8 @@
+name: TRACE_mutation
+dependencies:
+  - pandas
+  - matplotlib
+  - conda-forge::ipykernel
+  - conda-forge::notebook
+  - conda-forge::biopython
+  - bioconda::pyvcf3

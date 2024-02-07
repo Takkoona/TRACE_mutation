@@ -1,0 +1,27 @@
+version: '3'
+services:
+  sra-tools:
+    build:
+      context: .
+      target: sra-tools
+    platform: linux/amd64
+  bcl2fastq2:
+    build: 
+      context: .
+      target: bcl2fastq2
+    platform: linux/amd64
+  bowtie2:
+    build: 
+      context: .
+      target: bowtie2
+    platform: linux/amd64
+  samtools:
+    build: 
+      context: .
+      target: samtools
+    platform: linux/amd64
+  freebayes:
+    build:
+      context: .
+      target: freebayes
+    platform: linux/amd64

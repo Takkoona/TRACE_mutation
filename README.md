@@ -1,2 +1,1 @@
-# TRACE_mutation
-Mutation analysis for TRACE method
+# Replicate of TRACE paper sequence data analysis
